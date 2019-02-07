@@ -15,7 +15,7 @@ function validateCode() {
   if (code !== "02112USABOSTON335148825") {
     alert("Secret Code is incorrect");
   } else {
-    window.open('file:///C:/BPMONLINE/SQLbuddies/css/congrats.html', "_self");
+    window.open('css/congrats.html', "_self");
   }
   return false;
 }
