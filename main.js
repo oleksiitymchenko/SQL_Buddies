@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
   setTimeout(function(){ form.classList.remove("hide") }, 12000);
 });
 function validateCode() {
-  let code = document.getElementById("code").value;
+  let code = document.getElementById("code").value.toUpperCase();
   if (code !== "02112USABOSTON335148825") {
     alert("Secret Code is incorrect");
   } else {
