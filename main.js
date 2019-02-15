@@ -15,7 +15,7 @@ function validateCode() {
   if (code !== "B691198Bonjour") {
     alert("Secret Code is incorrect");
   } else {
-    window.open('file:///C:/bpmonline/SQL%20tutorial/css/effect.html', "_self");
+    window.open('css/effect.html', "_self");
   }
   return false;
 }
